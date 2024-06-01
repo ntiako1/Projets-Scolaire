@@ -1,0 +1,228 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #1C1C1C;
+}
+
+html,
+body {
+  width: 100svw;
+  height: 100svh;
+  background-color: #FFF;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 10%;
+}
+header nav,
+header ul {
+  width: 100%;
+  height: 100%;
+}
+header nav ul {
+  background-color: #306ae7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul li {
+  background-color: rgba(49, 33, 190, 0.5411764706);
+  border: none;
+  border-radius: 12px;
+  padding: 1%;
+  list-style-type: none;
+  transition: background-color 0.4s ease-in, transform 0.3s ease-in;
+  cursor: pointer;
+}
+header nav ul li:hover {
+  background-color: #3121be;
+  transform: scale(1.1);
+  transition: background-color 0.4s ease-out, transform 0.3s ease-out;
+}
+header nav ul li a {
+  color: #fcfcfc;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+header nav .scrolled-down {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+header nav .scrolled-up {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+main section {
+  width: 100%;
+  height: 100%;
+}
+main .intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .intro h1 {
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  text-decoration: underline;
+}
+main .intro .def {
+  position: relative;
+  width: 60%;
+  height: max-content;
+  border: 5px solid #306ae7;
+  padding: 1%;
+}
+main .intro .def h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 5%;
+}
+main .intro .def p {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Poppins Italic";
+}
+main .intro .def span {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Poppins Bold-Italic";
+  text-decoration: underline;
+}
+main .fonctionnement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .fonctionnement .fonc {
+  width: 85%;
+  height: max-content;
+  border: 5px solid #306ae7;
+  padding: 5%;
+}
+main .fonctionnement .fonc h2 {
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3%;
+}
+main .fonctionnement .fonc p {
+  font-size: 1.2rem;
+}
+main .fonctionnement .fonc span {
+  font-size: 1.4rem;
+  font-family: "Poppins Bold-Italic";
+  text-decoration: underline;
+}
+main .efficacite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .efficacite .effi {
+  width: 60%;
+  height: max-content;
+  border: 5px solid #306ae7;
+  padding: 5%;
+}
+main .efficacite .effi h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 5%;
+}
+main .efficacite .effi p {
+  font-size: 1.4rem;
+}
+main .efficacite .effi span {
+  font-size: 1.4rem;
+  font-family: "Poppins Bold-Italic";
+  text-decoration: underline;
+}
+main .dispoPrix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .dispoPrix .dp {
+  width: 60%;
+  height: max-content;
+  border: 5px solid #306ae7;
+  padding: 5%;
+}
+main .dispoPrix .dp h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 5%;
+}
+main .dispoPrix .dp p {
+  font-size: 1.4rem;
+}
+main .dispoPrix .dp a {
+  font-size: 1.4rem;
+  font-family: "Poppins Bold-Italic";
+  text-decoration: underline;
+}
+main .ai {
+  position: relative;
+  height: 200svh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  gap: 10%;
+}
+main .ai h2 {
+  position: absolute;
+  top: 0;
+  font-size: 2.5rem;
+  font-family: "Poppins Bold";
+  border: 5px solid #306ae7;
+  padding: 1%;
+}
+main .ai .avantages {
+  width: 40%;
+  height: 90%;
+}
+main .ai .inconvenients {
+  width: 40%;
+  height: 90%;
+}
+main .ai ul {
+  height: max-content;
+}
+main .ai ul li {
+  font-size: 1.5rem;
+  margin: 5%;
+}
+main .ai ul span {
+  font-size: 1.5rem;
+  font-family: "Poppins Bold";
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <title>Tiakola R.I.Peace</title>
+</head>
+<body>
+
+    <audio id="load-music" src="./Songs/Tiakola-Meuda.mp3" autoplay>
+        Votre navigateur ne supporte pas la balise audio.
+    </audio>
+
+
+    <header>
+        <div id="menuHamburger" class="menu-hamburger">
+            <div id="menuHamburgerChilds" class="hamburger"></div>
+            <div id="menuHamburgerChilds" class="hamburger"></div>
+            <div id="menuHamburgerChilds" class="hamburger"></div>
+        </div>
+
+        <ul>
+            <li>
+                <img src="./Images/person.svg" alt="" width="30px" height="30px">
+                <a href="#Bio">Tiakola</a></li>
+            <li>
+                <img src="./Images/music.svg" alt="" width="30px" height="30px">
+                <a href="#Musique">R.I.Peace</a></li>
+            <li>
+                <img src="./Images/notebook.svg" alt="" width="30px" height="30px">
+                <a href="#FS">Figures</a></li>
+        </ul>
+    </header>
+
+
+    <main>
+        <section id="Accueil" class="accueil">
+            <h1>TIAKOLA</h1>
+            <p>Rappeur</p>
+        </section>
+
+        <section id="Bio" class="bio">
+            <div class="pdp-tiakola"></div>
+            <div id="bioCard" class="carte">
+                <p id="bioText">
+                    William Mundala, alias Tiakola, est un artiste musical d'origine congolaise né le 4 décembre 1999 à Bondy, en Seine-Saint-Denis. Ancien membre du groupe 4Keus, il commence sa carrière musicale en 2015 avant de se lancer en solo en 2019.
+
+                    <br><br>
+
+                    À 16 ans, Tiakola abandonne le football, découragé par la concurrence, et se tourne vers la musique. Il est inspiré par ses expériences en studio et ses performances à l'église avec ses sœurs, influencé par ses tantes, Les Kunda Sisters, un groupe gospel congolais. 
+
+                    <br><br>
+
+                    Il découvre son talent pour le chant et le rap, ce qui l'amène à se lancer pleinement dans une carrière musicale. En solo, il collabore avec des artistes comme Dadju, Franglish, Gazo, Hamza, Niska, et, à l'international, avec le rappeur anglais Dave.
+                </p>
+                <button id="readMoreBtn">Lire plus</button>
+            </div>
+        </section>
+
+        <section id="Musique" class="musique">
+            <div class="music-card">
+                <div class="image-container"></div>
+                <h1>R.I.Peace - Tiakola</h1>
+                <div class="lyrics">
+                    <p>
+                        Sexe, drogue, tous ces diamants s'exportent (s'exportent)
+                        <br>
+                        Tout ça est éphémère, on n'emporte rien avec soi (avec soi)
+                        <br>
+                        Un moment d'cette vie où y a même plus d'espoir (plus d'espoir)
+                        <br>
+                        Ça viendra tôt ou tard comme des Kalash' à seille-Mar (seille-Mar)
+                        <br>
+                        La muerte nous rappelle qu'on repart seul (repart seul)
+                        <br>
+                        Surtout sans prévenir, ça arrive à tout moment (hey)
+                        <br>
+                        Rappelle-toi, la mort ne prévient pas (prévient pas)
+                        <br>
+                        Avant de tout laisser, prépare bien ton testament
+                    </p>
+                </div>
+                <audio controls>
+                    <source src="./Songs/r-i-peace.mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <section id="FS" class="figures">
+            <div class="figure-section">
+                <h2>Métaphore</h2>
+                <p>"Ça viendra tôt ou tard comme des Kalash' à seille-Mar (seille-Mar)"</p>
+                <audio controls>
+                    <source src="./Songs/r-i-peace-metaphore.mp3">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </div>
+
+            <div class="figure-section">
+                <h2>Antithèse</h2>
+                <p>"Il n'y a qu'un pas entre la mort et la vie (entre la mort et la vie), Entre l'amour et la haine (entre l'amour et la haine)"</p>
+                <audio controls>
+                    <source src="./Songs/r-i-peace-antithèse.mp3">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </div>
+
+            <div class="figure-section">
+                <h2>Répétition</h2>
+                <p>"Sexe, drogue, tous ces diamants s'exportent (s'exportent) Tout ça est éphémère, on n'emporte rien avec soi (avec soi)"</p>
+                <audio controls>
+                    <source src="./Songs/r-i-peace-repetition.mp3" type="audio/mp3">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./JS/typewriter.js"></script>
+    <script src="./JS/scripts.js"></script>
+</body>
+</html>

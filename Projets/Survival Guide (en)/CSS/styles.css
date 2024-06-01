@@ -1,0 +1,103 @@
+/* Styles.css */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #fcfcfc;
+}
+
+body {
+    position: relative;
+    width: 100svw;
+    height: 100svh;
+
+    background-color: #000000;
+    background-image: url(../Images/forest.jpg);
+    backdrop-filter: brightness(35%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zombie1 {
+    position: absolute;
+    left: 0;
+    height: 50%;
+}
+
+nav {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    translate: -50%;
+    width: 40%;
+    height: 5%;
+
+    border: none;
+    padding: 10px;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+
+    gap: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a {
+    width: max-content;
+
+    border: 3px solid #556B2F;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease-out;
+}
+
+ul a:hover {
+    background-color: #556B2F;
+    transition: background-color 0.3s ease-in;
+}
+
+ul img {
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+ul img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-out;
+}
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

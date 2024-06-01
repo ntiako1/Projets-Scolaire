@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'GG-sans';
+    src: url(../Fonts/gg-sans/gg\ sans\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'GG-Medium';
+    src: url(../Fonts/gg-sans/gg\ sans\ Medium.ttf);
+}
+@font-face {
+    font-family: 'GG-Bold';
+    src: url(../Fonts/gg-sans/gg\ sans\ Bold.ttf);
+}
+@font-face {
+    font-family: 'GG-SemiBold';
+    src: url(../Fonts/gg-sans/gg\ sans\ Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Gentle';
+    src: url(../Fonts/Gentle/Gentle.otf);
+}
